@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69DD75FE1E1BB99B0033CD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD75FD1E1BB99B0033CD69 /* main.m */; };
+		69DD76011E1BB99B0033CD69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76001E1BB99B0033CD69 /* AppDelegate.m */; };
+		69DD76041E1BB99B0033CD69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76031E1BB99B0033CD69 /* ViewController.m */; };
+		69DD76071E1BB99B0033CD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DD76051E1BB99B0033CD69 /* Main.storyboard */; };
+		69DD76091E1BB99B0033CD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DD76081E1BB99B0033CD69 /* Assets.xcassets */; };
+		69DD760C1E1BB99B0033CD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DD760A1E1BB99B0033CD69 /* LaunchScreen.storyboard */; };
+		69DD76171E1BB99B0033CD69 /* SwimCareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76161E1BB99B0033CD69 /* SwimCareTests.m */; };
+		69DD76221E1BB99B0033CD69 /* SwimCareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76211E1BB99B0033CD69 /* SwimCareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69DD76131E1BB99B0033CD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DD75F11E1BB99B0033CD69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DD75F81E1BB99B0033CD69;
+			remoteInfo = SwimCare;
+		};
+		69DD761E1E1BB99B0033CD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DD75F11E1BB99B0033CD69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DD75F81E1BB99B0033CD69;
+			remoteInfo = SwimCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69DD75F91E1BB99B0033CD69 /* SwimCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DD75FD1E1BB99B0033CD69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69DD75FF1E1BB99B0033CD69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69DD76001E1BB99B0033CD69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69DD76021E1BB99B0033CD69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69DD76031E1BB99B0033CD69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69DD76061E1BB99B0033CD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69DD76081E1BB99B0033CD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69DD760B1E1BB99B0033CD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69DD760D1E1BB99B0033CD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DD76121E1BB99B0033CD69 /* SwimCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DD76161E1BB99B0033CD69 /* SwimCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimCareTests.m; sourceTree = "<group>"; };
+		69DD76181E1BB99B0033CD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DD761D1E1BB99B0033CD69 /* SwimCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DD76211E1BB99B0033CD69 /* SwimCareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimCareUITests.m; sourceTree = "<group>"; };
+		69DD76231E1BB99B0033CD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DD75F61E1BB99B0033CD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD760F1E1BB99B0033CD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD761A1E1BB99B0033CD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69DD75F01E1BB99B0033CD69 = {
+			isa = PBXGroup;
+			children = (
+				69DD75FB1E1BB99B0033CD69 /* SwimCare */,
+				69DD76151E1BB99B0033CD69 /* SwimCareTests */,
+				69DD76201E1BB99B0033CD69 /* SwimCareUITests */,
+				69DD75FA1E1BB99B0033CD69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69DD75FA1E1BB99B0033CD69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69DD75F91E1BB99B0033CD69 /* SwimCare.app */,
+				69DD76121E1BB99B0033CD69 /* SwimCareTests.xctest */,
+				69DD761D1E1BB99B0033CD69 /* SwimCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69DD75FB1E1BB99B0033CD69 /* SwimCare */ = {
+			isa = PBXGroup;
+			children = (
+				69DD75FF1E1BB99B0033CD69 /* AppDelegate.h */,
+				69DD76001E1BB99B0033CD69 /* AppDelegate.m */,
+				69DD76021E1BB99B0033CD69 /* ViewController.h */,
+				69DD76031E1BB99B0033CD69 /* ViewController.m */,
+				69DD76051E1BB99B0033CD69 /* Main.storyboard */,
+				69DD76081E1BB99B0033CD69 /* Assets.xcassets */,
+				69DD760A1E1BB99B0033CD69 /* LaunchScreen.storyboard */,
+				69DD760D1E1BB99B0033CD69 /* Info.plist */,
+				69DD75FC1E1BB99B0033CD69 /* Supporting Files */,
+			);
+			path = SwimCare;
+			sourceTree = "<group>";
+		};
+		69DD75FC1E1BB99B0033CD69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DD75FD1E1BB99B0033CD69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69DD76151E1BB99B0033CD69 /* SwimCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				69DD76161E1BB99B0033CD69 /* SwimCareTests.m */,
+				69DD76181E1BB99B0033CD69 /* Info.plist */,
+			);
+			path = SwimCareTests;
+			sourceTree = "<group>";
+		};
+		69DD76201E1BB99B0033CD69 /* SwimCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69DD76211E1BB99B0033CD69 /* SwimCareUITests.m */,
+				69DD76231E1BB99B0033CD69 /* Info.plist */,
+			);
+			path = SwimCareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69DD75F81E1BB99B0033CD69 /* SwimCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DD76261E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCare" */;
+			buildPhases = (
+				69DD75F51E1BB99B0033CD69 /* Sources */,
+				69DD75F61E1BB99B0033CD69 /* Frameworks */,
+				69DD75F71E1BB99B0033CD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimCare;
+			productName = SwimCare;
+			productReference = 69DD75F91E1BB99B0033CD69 /* SwimCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69DD76111E1BB99B0033CD69 /* SwimCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DD76291E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCareTests" */;
+			buildPhases = (
+				69DD760E1E1BB99B0033CD69 /* Sources */,
+				69DD760F1E1BB99B0033CD69 /* Frameworks */,
+				69DD76101E1BB99B0033CD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DD76141E1BB99B0033CD69 /* PBXTargetDependency */,
+			);
+			name = SwimCareTests;
+			productName = SwimCareTests;
+			productReference = 69DD76121E1BB99B0033CD69 /* SwimCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69DD761C1E1BB99B0033CD69 /* SwimCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DD762C1E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCareUITests" */;
+			buildPhases = (
+				69DD76191E1BB99B0033CD69 /* Sources */,
+				69DD761A1E1BB99B0033CD69 /* Frameworks */,
+				69DD761B1E1BB99B0033CD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DD761F1E1BB99B0033CD69 /* PBXTargetDependency */,
+			);
+			name = SwimCareUITests;
+			productName = SwimCareUITests;
+			productReference = 69DD761D1E1BB99B0033CD69 /* SwimCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69DD75F11E1BB99B0033CD69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SixthSenseIT;
+				TargetAttributes = {
+					69DD75F81E1BB99B0033CD69 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					69DD76111E1BB99B0033CD69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 69DD75F81E1BB99B0033CD69;
+					};
+					69DD761C1E1BB99B0033CD69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 69DD75F81E1BB99B0033CD69;
+					};
+				};
+			};
+			buildConfigurationList = 69DD75F41E1BB99B0033CD69 /* Build configuration list for PBXProject "SwimCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69DD75F01E1BB99B0033CD69;
+			productRefGroup = 69DD75FA1E1BB99B0033CD69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69DD75F81E1BB99B0033CD69 /* SwimCare */,
+				69DD76111E1BB99B0033CD69 /* SwimCareTests */,
+				69DD761C1E1BB99B0033CD69 /* SwimCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69DD75F71E1BB99B0033CD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DD760C1E1BB99B0033CD69 /* LaunchScreen.storyboard in Resources */,
+				69DD76091E1BB99B0033CD69 /* Assets.xcassets in Resources */,
+				69DD76071E1BB99B0033CD69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD76101E1BB99B0033CD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD761B1E1BB99B0033CD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DD75F51E1BB99B0033CD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DD76041E1BB99B0033CD69 /* ViewController.m in Sources */,
+				69DD76011E1BB99B0033CD69 /* AppDelegate.m in Sources */,
+				69DD75FE1E1BB99B0033CD69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD760E1E1BB99B0033CD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DD76171E1BB99B0033CD69 /* SwimCareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD76191E1BB99B0033CD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DD76221E1BB99B0033CD69 /* SwimCareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DD76141E1BB99B0033CD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DD75F81E1BB99B0033CD69 /* SwimCare */;
+			targetProxy = 69DD76131E1BB99B0033CD69 /* PBXContainerItemProxy */;
+		};
+		69DD761F1E1BB99B0033CD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DD75F81E1BB99B0033CD69 /* SwimCare */;
+			targetProxy = 69DD761E1E1BB99B0033CD69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69DD76051E1BB99B0033CD69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DD76061E1BB99B0033CD69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69DD760A1E1BB99B0033CD69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DD760B1E1BB99B0033CD69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69DD76241E1BB99B0033CD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69DD76251E1BB99B0033CD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69DD76271E1BB99B0033CD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwimCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SixthSenseIT.SwimCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69DD76281E1BB99B0033CD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwimCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SixthSenseIT.SwimCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69DD762A1E1BB99B0033CD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwimCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SixthSenseIT.SwimCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimCare.app/SwimCare";
+			};
+			name = Debug;
+		};
+		69DD762B1E1BB99B0033CD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwimCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SixthSenseIT.SwimCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimCare.app/SwimCare";
+			};
+			name = Release;
+		};
+		69DD762D1E1BB99B0033CD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwimCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SixthSenseIT.SwimCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwimCare;
+			};
+			name = Debug;
+		};
+		69DD762E1E1BB99B0033CD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwimCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SixthSenseIT.SwimCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwimCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69DD75F41E1BB99B0033CD69 /* Build configuration list for PBXProject "SwimCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD76241E1BB99B0033CD69 /* Debug */,
+				69DD76251E1BB99B0033CD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DD76261E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD76271E1BB99B0033CD69 /* Debug */,
+				69DD76281E1BB99B0033CD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69DD76291E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD762A1E1BB99B0033CD69 /* Debug */,
+				69DD762B1E1BB99B0033CD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69DD762C1E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD762D1E1BB99B0033CD69 /* Debug */,
+				69DD762E1E1BB99B0033CD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69DD75F11E1BB99B0033CD69 /* Project object */;
+}
