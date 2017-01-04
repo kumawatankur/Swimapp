@@ -7,14 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690887231E1CB3F00000F3C4 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887221E1CB3F00000F3C4 /* Map.m */; };
+		690887261E1CB3FC0000F3C4 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887251E1CB3FC0000F3C4 /* Phone.m */; };
+		690887291E1CB4210000F3C4 /* Dashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887281E1CB4210000F3C4 /* Dashboard.m */; };
+		6908872D1E1CCA030000F3C4 /* WhatsNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908872C1E1CCA030000F3C4 /* WhatsNew.m */; };
+		690887301E1CD9890000F3C4 /* Policy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908872F1E1CD9890000F3C4 /* Policy.m */; };
+		690887331E1CD9BC0000F3C4 /* ExistingCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887321E1CD9BC0000F3C4 /* ExistingCustomer.m */; };
+		690887361E1CD9D70000F3C4 /* NewCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887351E1CD9D70000F3C4 /* NewCustomer.m */; };
+		690887391E1CD9E90000F3C4 /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887381E1CD9E90000F3C4 /* Invoice.m */; };
+		6908873C1E1CDA020000F3C4 /* MyChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908873B1E1CDA020000F3C4 /* MyChildren.m */; };
+		690887401E1CDAAC0000F3C4 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908873F1E1CDAAC0000F3C4 /* Login.m */; };
+		690887A61E1CFE590000F3C4 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887441E1CFE590000F3C4 /* IQNSArray+Sort.m */; };
+		690887A71E1CFE590000F3C4 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887461E1CFE590000F3C4 /* IQUIScrollView+Additions.m */; };
+		690887A81E1CFE590000F3C4 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887481E1CFE590000F3C4 /* IQUITextFieldView+Additions.m */; };
+		690887A91E1CFE590000F3C4 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908874A1E1CFE590000F3C4 /* IQUIView+Hierarchy.m */; };
+		690887AA1E1CFE590000F3C4 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908874C1E1CFE590000F3C4 /* IQUIViewController+Additions.m */; };
+		690887AB1E1CFE590000F3C4 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908874E1E1CFE590000F3C4 /* IQUIWindow+Hierarchy.m */; };
+		690887AC1E1CFE590000F3C4 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887531E1CFE590000F3C4 /* IQKeyboardManager.m */; };
+		690887AD1E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887551E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.m */; };
+		690887AE1E1CFE590000F3C4 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887581E1CFE590000F3C4 /* IQTextView.m */; };
+		690887AF1E1CFE590000F3C4 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908875B1E1CFE590000F3C4 /* IQBarButtonItem.m */; };
+		690887B01E1CFE590000F3C4 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908875D1E1CFE590000F3C4 /* IQPreviousNextView.m */; };
+		690887B11E1CFE590000F3C4 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908875F1E1CFE590000F3C4 /* IQTitleBarButtonItem.m */; };
+		690887B21E1CFE590000F3C4 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887611E1CFE590000F3C4 /* IQToolbar.m */; };
+		690887B31E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887631E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.m */; };
+		690887B41E1CFE590000F3C4 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 690887651E1CFE590000F3C4 /* IQKeyboardManager.bundle */; };
+		690887B51E1CFE590000F3C4 /* ColorPickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887691E1CFE590000F3C4 /* ColorPickerTextField.m */; };
+		690887B61E1CFE590000F3C4 /* HFColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908876C1E1CFE590000F3C4 /* HFColorButton.m */; };
+		690887B71E1CFE590000F3C4 /* HFColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908876E1E1CFE590000F3C4 /* HFColorPickerView.m */; };
+		690887B81E1CFE590000F3C4 /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887701E1CFE590000F3C4 /* UIColor+HexColors.m */; };
+		690887B91E1CFE590000F3C4 /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887731E1CFE590000F3C4 /* IQDropDownTextField.m */; };
+		690887BA1E1CFE590000F3C4 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887761E1CFE590000F3C4 /* NSAttributedString+YYText.m */; };
+		690887BB1E1CFE590000F3C4 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887781E1CFE590000F3C4 /* NSParagraphStyle+YYText.m */; };
+		690887BC1E1CFE590000F3C4 /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908877A1E1CFE590000F3C4 /* UIPasteboard+YYText.m */; };
+		690887BD1E1CFE590000F3C4 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908877C1E1CFE590000F3C4 /* UIView+YYText.m */; };
+		690887BE1E1CFE590000F3C4 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908877E1E1CFE590000F3C4 /* YYLabel.m */; };
+		690887BF1E1CFE590000F3C4 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887811E1CFE590000F3C4 /* YYTextArchiver.m */; };
+		690887C01E1CFE590000F3C4 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887831E1CFE590000F3C4 /* YYTextAsyncLayer.m */; };
+		690887C11E1CFE590000F3C4 /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887851E1CFE590000F3C4 /* YYTextAttribute.m */; };
+		690887C21E1CFE590000F3C4 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887871E1CFE590000F3C4 /* YYTextContainerView.m */; };
+		690887C31E1CFE590000F3C4 /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887891E1CFE590000F3C4 /* YYTextDebugOption.m */; };
+		690887C41E1CFE590000F3C4 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908878B1E1CFE590000F3C4 /* YYTextEffectWindow.m */; };
+		690887C51E1CFE590000F3C4 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908878D1E1CFE590000F3C4 /* YYTextInput.m */; };
+		690887C61E1CFE590000F3C4 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908878F1E1CFE590000F3C4 /* YYTextKeyboardManager.m */; };
+		690887C71E1CFE590000F3C4 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887911E1CFE590000F3C4 /* YYTextLayout.m */; };
+		690887C81E1CFE590000F3C4 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887931E1CFE590000F3C4 /* YYTextLine.m */; };
+		690887C91E1CFE590000F3C4 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887951E1CFE590000F3C4 /* YYTextMagnifier.m */; };
+		690887CA1E1CFE590000F3C4 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887971E1CFE590000F3C4 /* YYTextParser.m */; };
+		690887CB1E1CFE590000F3C4 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887991E1CFE590000F3C4 /* YYTextRubyAnnotation.m */; };
+		690887CC1E1CFE590000F3C4 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908879B1E1CFE590000F3C4 /* YYTextRunDelegate.m */; };
+		690887CD1E1CFE590000F3C4 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908879D1E1CFE590000F3C4 /* YYTextSelectionView.m */; };
+		690887CE1E1CFE590000F3C4 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908879F1E1CFE590000F3C4 /* YYTextTransaction.m */; };
+		690887CF1E1CFE590000F3C4 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887A11E1CFE590000F3C4 /* YYTextUtilities.m */; };
+		690887D01E1CFE590000F3C4 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887A31E1CFE590000F3C4 /* YYTextView.m */; };
+		690887D11E1CFE590000F3C4 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887A51E1CFE590000F3C4 /* YYTextWeakProxy.m */; };
+		690887D31E1D04120000F3C4 /* user_3_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 690887D21E1D04120000F3C4 /* user_3_small.png */; };
+		690887D61E1D0BD10000F3C4 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887D51E1D0BD10000F3C4 /* Register.m */; };
+		690887D91E1D0BE60000F3C4 /* AddMoreChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887D81E1D0BE60000F3C4 /* AddMoreChild.m */; };
+		690887DD1E1D1A900000F3C4 /* ExistingLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887DC1E1D1A900000F3C4 /* ExistingLogin.m */; };
+		690887E01E1D1AA40000F3C4 /* ExistingRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887DF1E1D1AA40000F3C4 /* ExistingRegister.m */; };
+		690887E31E1D1AB70000F3C4 /* ExistingAddMoreChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887E21E1D1AB70000F3C4 /* ExistingAddMoreChild.m */; };
+		690887E71E1D1ADF0000F3C4 /* MyLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887E61E1D1ADF0000F3C4 /* MyLogin.m */; };
+		690887EA1E1D1AEE0000F3C4 /* MyRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887E91E1D1AEE0000F3C4 /* MyRegister.m */; };
+		690887ED1E1D1AFE0000F3C4 /* MyAddMoreChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887EC1E1D1AFE0000F3C4 /* MyAddMoreChild.m */; };
 		69DD75FE1E1BB99B0033CD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD75FD1E1BB99B0033CD69 /* main.m */; };
 		69DD76011E1BB99B0033CD69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76001E1BB99B0033CD69 /* AppDelegate.m */; };
-		69DD76041E1BB99B0033CD69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76031E1BB99B0033CD69 /* ViewController.m */; };
 		69DD76071E1BB99B0033CD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DD76051E1BB99B0033CD69 /* Main.storyboard */; };
 		69DD76091E1BB99B0033CD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DD76081E1BB99B0033CD69 /* Assets.xcassets */; };
 		69DD760C1E1BB99B0033CD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DD760A1E1BB99B0033CD69 /* LaunchScreen.storyboard */; };
 		69DD76171E1BB99B0033CD69 /* SwimCareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76161E1BB99B0033CD69 /* SwimCareTests.m */; };
 		69DD76221E1BB99B0033CD69 /* SwimCareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76211E1BB99B0033CD69 /* SwimCareUITests.m */; };
+		69DD76311E1BC59D0033CD69 /* LocationSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76301E1BC59D0033CD69 /* LocationSelect.m */; };
+		69DD76351E1BCF3B0033CD69 /* LocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76341E1BCF3B0033CD69 /* LocationCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +99,137 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690887211E1CB3F00000F3C4 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		690887221E1CB3F00000F3C4 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		690887241E1CB3FC0000F3C4 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		690887251E1CB3FC0000F3C4 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		690887271E1CB4210000F3C4 /* Dashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dashboard.h; sourceTree = "<group>"; };
+		690887281E1CB4210000F3C4 /* Dashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dashboard.m; sourceTree = "<group>"; };
+		6908872B1E1CCA030000F3C4 /* WhatsNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatsNew.h; sourceTree = "<group>"; };
+		6908872C1E1CCA030000F3C4 /* WhatsNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatsNew.m; sourceTree = "<group>"; };
+		6908872E1E1CD9890000F3C4 /* Policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Policy.h; sourceTree = "<group>"; };
+		6908872F1E1CD9890000F3C4 /* Policy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Policy.m; sourceTree = "<group>"; };
+		690887311E1CD9BC0000F3C4 /* ExistingCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingCustomer.h; sourceTree = "<group>"; };
+		690887321E1CD9BC0000F3C4 /* ExistingCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingCustomer.m; sourceTree = "<group>"; };
+		690887341E1CD9D70000F3C4 /* NewCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCustomer.h; sourceTree = "<group>"; };
+		690887351E1CD9D70000F3C4 /* NewCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCustomer.m; sourceTree = "<group>"; };
+		690887371E1CD9E90000F3C4 /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
+		690887381E1CD9E90000F3C4 /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
+		6908873A1E1CDA020000F3C4 /* MyChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChildren.h; sourceTree = "<group>"; };
+		6908873B1E1CDA020000F3C4 /* MyChildren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChildren.m; sourceTree = "<group>"; };
+		6908873E1E1CDAAC0000F3C4 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		6908873F1E1CDAAC0000F3C4 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		690887431E1CFE580000F3C4 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		690887441E1CFE590000F3C4 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		690887451E1CFE590000F3C4 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		690887461E1CFE590000F3C4 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		690887471E1CFE590000F3C4 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		690887481E1CFE590000F3C4 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		690887491E1CFE590000F3C4 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		6908874A1E1CFE590000F3C4 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		6908874B1E1CFE590000F3C4 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		6908874C1E1CFE590000F3C4 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		6908874D1E1CFE590000F3C4 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		6908874E1E1CFE590000F3C4 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		690887501E1CFE590000F3C4 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		690887511E1CFE590000F3C4 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		690887521E1CFE590000F3C4 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		690887531E1CFE590000F3C4 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		690887541E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		690887551E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		690887571E1CFE590000F3C4 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		690887581E1CFE590000F3C4 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		6908875A1E1CFE590000F3C4 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		6908875B1E1CFE590000F3C4 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		6908875C1E1CFE590000F3C4 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		6908875D1E1CFE590000F3C4 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		6908875E1E1CFE590000F3C4 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		6908875F1E1CFE590000F3C4 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		690887601E1CFE590000F3C4 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		690887611E1CFE590000F3C4 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		690887621E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		690887631E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		690887651E1CFE590000F3C4 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		690887681E1CFE590000F3C4 /* ColorPickerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerTextField.h; sourceTree = "<group>"; };
+		690887691E1CFE590000F3C4 /* ColorPickerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerTextField.m; sourceTree = "<group>"; };
+		6908876B1E1CFE590000F3C4 /* HFColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFColorButton.h; sourceTree = "<group>"; };
+		6908876C1E1CFE590000F3C4 /* HFColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFColorButton.m; sourceTree = "<group>"; };
+		6908876D1E1CFE590000F3C4 /* HFColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFColorPickerView.h; sourceTree = "<group>"; };
+		6908876E1E1CFE590000F3C4 /* HFColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFColorPickerView.m; sourceTree = "<group>"; };
+		6908876F1E1CFE590000F3C4 /* UIColor+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColors.h"; sourceTree = "<group>"; };
+		690887701E1CFE590000F3C4 /* UIColor+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColors.m"; sourceTree = "<group>"; };
+		690887721E1CFE590000F3C4 /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
+		690887731E1CFE590000F3C4 /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
+		690887751E1CFE590000F3C4 /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		690887761E1CFE590000F3C4 /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		690887771E1CFE590000F3C4 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		690887781E1CFE590000F3C4 /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		690887791E1CFE590000F3C4 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		6908877A1E1CFE590000F3C4 /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		6908877B1E1CFE590000F3C4 /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
+		6908877C1E1CFE590000F3C4 /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
+		6908877D1E1CFE590000F3C4 /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		6908877E1E1CFE590000F3C4 /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		6908877F1E1CFE590000F3C4 /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
+		690887801E1CFE590000F3C4 /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
+		690887811E1CFE590000F3C4 /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
+		690887821E1CFE590000F3C4 /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		690887831E1CFE590000F3C4 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		690887841E1CFE590000F3C4 /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
+		690887851E1CFE590000F3C4 /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
+		690887861E1CFE590000F3C4 /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
+		690887871E1CFE590000F3C4 /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
+		690887881E1CFE590000F3C4 /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
+		690887891E1CFE590000F3C4 /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
+		6908878A1E1CFE590000F3C4 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextEffectWindow.h; sourceTree = "<group>"; };
+		6908878B1E1CFE590000F3C4 /* YYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextEffectWindow.m; sourceTree = "<group>"; };
+		6908878C1E1CFE590000F3C4 /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
+		6908878D1E1CFE590000F3C4 /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
+		6908878E1E1CFE590000F3C4 /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		6908878F1E1CFE590000F3C4 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		690887901E1CFE590000F3C4 /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
+		690887911E1CFE590000F3C4 /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
+		690887921E1CFE590000F3C4 /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
+		690887931E1CFE590000F3C4 /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
+		690887941E1CFE590000F3C4 /* YYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextMagnifier.h; sourceTree = "<group>"; };
+		690887951E1CFE590000F3C4 /* YYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextMagnifier.m; sourceTree = "<group>"; };
+		690887961E1CFE590000F3C4 /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
+		690887971E1CFE590000F3C4 /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
+		690887981E1CFE590000F3C4 /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		690887991E1CFE590000F3C4 /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		6908879A1E1CFE590000F3C4 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
+		6908879B1E1CFE590000F3C4 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
+		6908879C1E1CFE590000F3C4 /* YYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextSelectionView.h; sourceTree = "<group>"; };
+		6908879D1E1CFE590000F3C4 /* YYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextSelectionView.m; sourceTree = "<group>"; };
+		6908879E1E1CFE590000F3C4 /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
+		6908879F1E1CFE590000F3C4 /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
+		690887A01E1CFE590000F3C4 /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
+		690887A11E1CFE590000F3C4 /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
+		690887A21E1CFE590000F3C4 /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		690887A31E1CFE590000F3C4 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		690887A41E1CFE590000F3C4 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		690887A51E1CFE590000F3C4 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		690887D21E1D04120000F3C4 /* user_3_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_3_small.png; sourceTree = "<group>"; };
+		690887D41E1D0BD10000F3C4 /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		690887D51E1D0BD10000F3C4 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		690887D71E1D0BE60000F3C4 /* AddMoreChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMoreChild.h; sourceTree = "<group>"; };
+		690887D81E1D0BE60000F3C4 /* AddMoreChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMoreChild.m; sourceTree = "<group>"; };
+		690887DB1E1D1A900000F3C4 /* ExistingLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingLogin.h; sourceTree = "<group>"; };
+		690887DC1E1D1A900000F3C4 /* ExistingLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingLogin.m; sourceTree = "<group>"; };
+		690887DE1E1D1AA40000F3C4 /* ExistingRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingRegister.h; sourceTree = "<group>"; };
+		690887DF1E1D1AA40000F3C4 /* ExistingRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingRegister.m; sourceTree = "<group>"; };
+		690887E11E1D1AB70000F3C4 /* ExistingAddMoreChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingAddMoreChild.h; sourceTree = "<group>"; };
+		690887E21E1D1AB70000F3C4 /* ExistingAddMoreChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingAddMoreChild.m; sourceTree = "<group>"; };
+		690887E51E1D1ADF0000F3C4 /* MyLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLogin.h; sourceTree = "<group>"; };
+		690887E61E1D1ADF0000F3C4 /* MyLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLogin.m; sourceTree = "<group>"; };
+		690887E81E1D1AEE0000F3C4 /* MyRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRegister.h; sourceTree = "<group>"; };
+		690887E91E1D1AEE0000F3C4 /* MyRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRegister.m; sourceTree = "<group>"; };
+		690887EB1E1D1AFE0000F3C4 /* MyAddMoreChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAddMoreChild.h; sourceTree = "<group>"; };
+		690887EC1E1D1AFE0000F3C4 /* MyAddMoreChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAddMoreChild.m; sourceTree = "<group>"; };
 		69DD75F91E1BB99B0033CD69 /* SwimCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DD75FD1E1BB99B0033CD69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69DD75FF1E1BB99B0033CD69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69DD76001E1BB99B0033CD69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69DD76021E1BB99B0033CD69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69DD76031E1BB99B0033CD69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		69DD76061E1BB99B0033CD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69DD76081E1BB99B0033CD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69DD760B1E1BB99B0033CD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +240,10 @@
 		69DD761D1E1BB99B0033CD69 /* SwimCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DD76211E1BB99B0033CD69 /* SwimCareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimCareUITests.m; sourceTree = "<group>"; };
 		69DD76231E1BB99B0033CD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DD762F1E1BC59D0033CD69 /* LocationSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSelect.h; sourceTree = "<group>"; };
+		69DD76301E1BC59D0033CD69 /* LocationSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSelect.m; sourceTree = "<group>"; };
+		69DD76331E1BCF3B0033CD69 /* LocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCell.h; sourceTree = "<group>"; };
+		69DD76341E1BCF3B0033CD69 /* LocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +271,257 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690887201E1CB3CD0000F3C4 /* Location select */ = {
+			isa = PBXGroup;
+			children = (
+				69DD762F1E1BC59D0033CD69 /* LocationSelect.h */,
+				69DD76301E1BC59D0033CD69 /* LocationSelect.m */,
+				69DD76331E1BCF3B0033CD69 /* LocationCell.h */,
+				69DD76341E1BCF3B0033CD69 /* LocationCell.m */,
+				690887211E1CB3F00000F3C4 /* Map.h */,
+				690887221E1CB3F00000F3C4 /* Map.m */,
+				690887241E1CB3FC0000F3C4 /* Phone.h */,
+				690887251E1CB3FC0000F3C4 /* Phone.m */,
+			);
+			name = "Location select";
+			sourceTree = "<group>";
+		};
+		6908872A1E1CB4330000F3C4 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				690887271E1CB4210000F3C4 /* Dashboard.h */,
+				690887281E1CB4210000F3C4 /* Dashboard.m */,
+			);
+			name = DashBoard;
+			sourceTree = "<group>";
+		};
+		6908873D1E1CDA8E0000F3C4 /* Existing Customer */ = {
+			isa = PBXGroup;
+			children = (
+				690887311E1CD9BC0000F3C4 /* ExistingCustomer.h */,
+				690887321E1CD9BC0000F3C4 /* ExistingCustomer.m */,
+				690887DB1E1D1A900000F3C4 /* ExistingLogin.h */,
+				690887DC1E1D1A900000F3C4 /* ExistingLogin.m */,
+				690887DE1E1D1AA40000F3C4 /* ExistingRegister.h */,
+				690887DF1E1D1AA40000F3C4 /* ExistingRegister.m */,
+				690887E11E1D1AB70000F3C4 /* ExistingAddMoreChild.h */,
+				690887E21E1D1AB70000F3C4 /* ExistingAddMoreChild.m */,
+			);
+			name = "Existing Customer";
+			sourceTree = "<group>";
+		};
+		690887411E1CFE580000F3C4 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				690887421E1CFE580000F3C4 /* Categories */,
+				6908874F1E1CFE590000F3C4 /* Constants */,
+				690887521E1CFE590000F3C4 /* IQKeyboardManager.h */,
+				690887531E1CFE590000F3C4 /* IQKeyboardManager.m */,
+				690887541E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.h */,
+				690887551E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.m */,
+				690887561E1CFE590000F3C4 /* IQTextView */,
+				690887591E1CFE590000F3C4 /* IQToolbar */,
+				690887641E1CFE590000F3C4 /* Resources */,
+				690887661E1CFE590000F3C4 /* Third Party */,
+				690887741E1CFE590000F3C4 /* YYText */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		690887421E1CFE580000F3C4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				690887431E1CFE580000F3C4 /* IQNSArray+Sort.h */,
+				690887441E1CFE590000F3C4 /* IQNSArray+Sort.m */,
+				690887451E1CFE590000F3C4 /* IQUIScrollView+Additions.h */,
+				690887461E1CFE590000F3C4 /* IQUIScrollView+Additions.m */,
+				690887471E1CFE590000F3C4 /* IQUITextFieldView+Additions.h */,
+				690887481E1CFE590000F3C4 /* IQUITextFieldView+Additions.m */,
+				690887491E1CFE590000F3C4 /* IQUIView+Hierarchy.h */,
+				6908874A1E1CFE590000F3C4 /* IQUIView+Hierarchy.m */,
+				6908874B1E1CFE590000F3C4 /* IQUIViewController+Additions.h */,
+				6908874C1E1CFE590000F3C4 /* IQUIViewController+Additions.m */,
+				6908874D1E1CFE590000F3C4 /* IQUIWindow+Hierarchy.h */,
+				6908874E1E1CFE590000F3C4 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6908874F1E1CFE590000F3C4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				690887501E1CFE590000F3C4 /* IQKeyboardManagerConstants.h */,
+				690887511E1CFE590000F3C4 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		690887561E1CFE590000F3C4 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				690887571E1CFE590000F3C4 /* IQTextView.h */,
+				690887581E1CFE590000F3C4 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		690887591E1CFE590000F3C4 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				6908875A1E1CFE590000F3C4 /* IQBarButtonItem.h */,
+				6908875B1E1CFE590000F3C4 /* IQBarButtonItem.m */,
+				6908875C1E1CFE590000F3C4 /* IQPreviousNextView.h */,
+				6908875D1E1CFE590000F3C4 /* IQPreviousNextView.m */,
+				6908875E1E1CFE590000F3C4 /* IQTitleBarButtonItem.h */,
+				6908875F1E1CFE590000F3C4 /* IQTitleBarButtonItem.m */,
+				690887601E1CFE590000F3C4 /* IQToolbar.h */,
+				690887611E1CFE590000F3C4 /* IQToolbar.m */,
+				690887621E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.h */,
+				690887631E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		690887641E1CFE590000F3C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				690887651E1CFE590000F3C4 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		690887661E1CFE590000F3C4 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				690887671E1CFE590000F3C4 /* Color Picker TextField */,
+				690887711E1CFE590000F3C4 /* IQDropDownTextField */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		690887671E1CFE590000F3C4 /* Color Picker TextField */ = {
+			isa = PBXGroup;
+			children = (
+				690887681E1CFE590000F3C4 /* ColorPickerTextField.h */,
+				690887691E1CFE590000F3C4 /* ColorPickerTextField.m */,
+				6908876A1E1CFE590000F3C4 /* HFColorPicker */,
+				6908876F1E1CFE590000F3C4 /* UIColor+HexColors.h */,
+				690887701E1CFE590000F3C4 /* UIColor+HexColors.m */,
+			);
+			path = "Color Picker TextField";
+			sourceTree = "<group>";
+		};
+		6908876A1E1CFE590000F3C4 /* HFColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6908876B1E1CFE590000F3C4 /* HFColorButton.h */,
+				6908876C1E1CFE590000F3C4 /* HFColorButton.m */,
+				6908876D1E1CFE590000F3C4 /* HFColorPickerView.h */,
+				6908876E1E1CFE590000F3C4 /* HFColorPickerView.m */,
+			);
+			path = HFColorPicker;
+			sourceTree = "<group>";
+		};
+		690887711E1CFE590000F3C4 /* IQDropDownTextField */ = {
+			isa = PBXGroup;
+			children = (
+				690887721E1CFE590000F3C4 /* IQDropDownTextField.h */,
+				690887731E1CFE590000F3C4 /* IQDropDownTextField.m */,
+			);
+			path = IQDropDownTextField;
+			sourceTree = "<group>";
+		};
+		690887741E1CFE590000F3C4 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				690887751E1CFE590000F3C4 /* NSAttributedString+YYText.h */,
+				690887761E1CFE590000F3C4 /* NSAttributedString+YYText.m */,
+				690887771E1CFE590000F3C4 /* NSParagraphStyle+YYText.h */,
+				690887781E1CFE590000F3C4 /* NSParagraphStyle+YYText.m */,
+				690887791E1CFE590000F3C4 /* UIPasteboard+YYText.h */,
+				6908877A1E1CFE590000F3C4 /* UIPasteboard+YYText.m */,
+				6908877B1E1CFE590000F3C4 /* UIView+YYText.h */,
+				6908877C1E1CFE590000F3C4 /* UIView+YYText.m */,
+				6908877D1E1CFE590000F3C4 /* YYLabel.h */,
+				6908877E1E1CFE590000F3C4 /* YYLabel.m */,
+				6908877F1E1CFE590000F3C4 /* YYText.h */,
+				690887801E1CFE590000F3C4 /* YYTextArchiver.h */,
+				690887811E1CFE590000F3C4 /* YYTextArchiver.m */,
+				690887821E1CFE590000F3C4 /* YYTextAsyncLayer.h */,
+				690887831E1CFE590000F3C4 /* YYTextAsyncLayer.m */,
+				690887841E1CFE590000F3C4 /* YYTextAttribute.h */,
+				690887851E1CFE590000F3C4 /* YYTextAttribute.m */,
+				690887861E1CFE590000F3C4 /* YYTextContainerView.h */,
+				690887871E1CFE590000F3C4 /* YYTextContainerView.m */,
+				690887881E1CFE590000F3C4 /* YYTextDebugOption.h */,
+				690887891E1CFE590000F3C4 /* YYTextDebugOption.m */,
+				6908878A1E1CFE590000F3C4 /* YYTextEffectWindow.h */,
+				6908878B1E1CFE590000F3C4 /* YYTextEffectWindow.m */,
+				6908878C1E1CFE590000F3C4 /* YYTextInput.h */,
+				6908878D1E1CFE590000F3C4 /* YYTextInput.m */,
+				6908878E1E1CFE590000F3C4 /* YYTextKeyboardManager.h */,
+				6908878F1E1CFE590000F3C4 /* YYTextKeyboardManager.m */,
+				690887901E1CFE590000F3C4 /* YYTextLayout.h */,
+				690887911E1CFE590000F3C4 /* YYTextLayout.m */,
+				690887921E1CFE590000F3C4 /* YYTextLine.h */,
+				690887931E1CFE590000F3C4 /* YYTextLine.m */,
+				690887941E1CFE590000F3C4 /* YYTextMagnifier.h */,
+				690887951E1CFE590000F3C4 /* YYTextMagnifier.m */,
+				690887961E1CFE590000F3C4 /* YYTextParser.h */,
+				690887971E1CFE590000F3C4 /* YYTextParser.m */,
+				690887981E1CFE590000F3C4 /* YYTextRubyAnnotation.h */,
+				690887991E1CFE590000F3C4 /* YYTextRubyAnnotation.m */,
+				6908879A1E1CFE590000F3C4 /* YYTextRunDelegate.h */,
+				6908879B1E1CFE590000F3C4 /* YYTextRunDelegate.m */,
+				6908879C1E1CFE590000F3C4 /* YYTextSelectionView.h */,
+				6908879D1E1CFE590000F3C4 /* YYTextSelectionView.m */,
+				6908879E1E1CFE590000F3C4 /* YYTextTransaction.h */,
+				6908879F1E1CFE590000F3C4 /* YYTextTransaction.m */,
+				690887A01E1CFE590000F3C4 /* YYTextUtilities.h */,
+				690887A11E1CFE590000F3C4 /* YYTextUtilities.m */,
+				690887A21E1CFE590000F3C4 /* YYTextView.h */,
+				690887A31E1CFE590000F3C4 /* YYTextView.m */,
+				690887A41E1CFE590000F3C4 /* YYTextWeakProxy.h */,
+				690887A51E1CFE590000F3C4 /* YYTextWeakProxy.m */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		690887DA1E1D1A5E0000F3C4 /* Invoice */ = {
+			isa = PBXGroup;
+			children = (
+				690887371E1CD9E90000F3C4 /* Invoice.h */,
+				690887381E1CD9E90000F3C4 /* Invoice.m */,
+				6908873E1E1CDAAC0000F3C4 /* Login.h */,
+				6908873F1E1CDAAC0000F3C4 /* Login.m */,
+				690887D41E1D0BD10000F3C4 /* Register.h */,
+				690887D51E1D0BD10000F3C4 /* Register.m */,
+				690887D71E1D0BE60000F3C4 /* AddMoreChild.h */,
+				690887D81E1D0BE60000F3C4 /* AddMoreChild.m */,
+			);
+			name = Invoice;
+			sourceTree = "<group>";
+		};
+		690887E41E1D1AC50000F3C4 /* My Children */ = {
+			isa = PBXGroup;
+			children = (
+				6908873A1E1CDA020000F3C4 /* MyChildren.h */,
+				6908873B1E1CDA020000F3C4 /* MyChildren.m */,
+				690887E51E1D1ADF0000F3C4 /* MyLogin.h */,
+				690887E61E1D1ADF0000F3C4 /* MyLogin.m */,
+				690887E81E1D1AEE0000F3C4 /* MyRegister.h */,
+				690887E91E1D1AEE0000F3C4 /* MyRegister.m */,
+				690887EB1E1D1AFE0000F3C4 /* MyAddMoreChild.h */,
+				690887EC1E1D1AFE0000F3C4 /* MyAddMoreChild.m */,
+			);
+			name = "My Children";
+			sourceTree = "<group>";
+		};
 		69DD75F01E1BB99B0033CD69 = {
 			isa = PBXGroup;
 			children = (
+				690887D21E1D04120000F3C4 /* user_3_small.png */,
+				690887411E1CFE580000F3C4 /* IQKeyboardManager */,
 				69DD75FB1E1BB99B0033CD69 /* SwimCare */,
 				69DD76151E1BB99B0033CD69 /* SwimCareTests */,
 				69DD76201E1BB99B0033CD69 /* SwimCareUITests */,
@@ -103,9 +544,18 @@
 			children = (
 				69DD75FF1E1BB99B0033CD69 /* AppDelegate.h */,
 				69DD76001E1BB99B0033CD69 /* AppDelegate.m */,
-				69DD76021E1BB99B0033CD69 /* ViewController.h */,
-				69DD76031E1BB99B0033CD69 /* ViewController.m */,
+				690887201E1CB3CD0000F3C4 /* Location select */,
 				69DD76051E1BB99B0033CD69 /* Main.storyboard */,
+				6908872A1E1CB4330000F3C4 /* DashBoard */,
+				6908872B1E1CCA030000F3C4 /* WhatsNew.h */,
+				6908872C1E1CCA030000F3C4 /* WhatsNew.m */,
+				6908872E1E1CD9890000F3C4 /* Policy.h */,
+				6908872F1E1CD9890000F3C4 /* Policy.m */,
+				6908873D1E1CDA8E0000F3C4 /* Existing Customer */,
+				690887341E1CD9D70000F3C4 /* NewCustomer.h */,
+				690887351E1CD9D70000F3C4 /* NewCustomer.m */,
+				690887DA1E1D1A5E0000F3C4 /* Invoice */,
+				690887E41E1D1AC50000F3C4 /* My Children */,
 				69DD76081E1BB99B0033CD69 /* Assets.xcassets */,
 				69DD760A1E1BB99B0033CD69 /* LaunchScreen.storyboard */,
 				69DD760D1E1BB99B0033CD69 /* Info.plist */,
@@ -244,7 +694,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69DD760C1E1BB99B0033CD69 /* LaunchScreen.storyboard in Resources */,
+				690887D31E1D04120000F3C4 /* user_3_small.png in Resources */,
 				69DD76091E1BB99B0033CD69 /* Assets.xcassets in Resources */,
+				690887B41E1CFE590000F3C4 /* IQKeyboardManager.bundle in Resources */,
 				69DD76071E1BB99B0033CD69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +722,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69DD76041E1BB99B0033CD69 /* ViewController.m in Sources */,
+				690887261E1CB3FC0000F3C4 /* Phone.m in Sources */,
+				690887BF1E1CFE590000F3C4 /* YYTextArchiver.m in Sources */,
+				690887A71E1CFE590000F3C4 /* IQUIScrollView+Additions.m in Sources */,
+				690887CE1E1CFE590000F3C4 /* YYTextTransaction.m in Sources */,
+				690887BB1E1CFE590000F3C4 /* NSParagraphStyle+YYText.m in Sources */,
+				690887361E1CD9D70000F3C4 /* NewCustomer.m in Sources */,
+				690887CA1E1CFE590000F3C4 /* YYTextParser.m in Sources */,
+				690887B91E1CFE590000F3C4 /* IQDropDownTextField.m in Sources */,
+				690887BA1E1CFE590000F3C4 /* NSAttributedString+YYText.m in Sources */,
+				690887E71E1D1ADF0000F3C4 /* MyLogin.m in Sources */,
+				690887C31E1CFE590000F3C4 /* YYTextDebugOption.m in Sources */,
+				690887B31E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				690887B71E1CFE590000F3C4 /* HFColorPickerView.m in Sources */,
+				690887B01E1CFE590000F3C4 /* IQPreviousNextView.m in Sources */,
+				690887B51E1CFE590000F3C4 /* ColorPickerTextField.m in Sources */,
+				690887301E1CD9890000F3C4 /* Policy.m in Sources */,
+				690887B61E1CFE590000F3C4 /* HFColorButton.m in Sources */,
+				690887B21E1CFE590000F3C4 /* IQToolbar.m in Sources */,
+				690887CB1E1CFE590000F3C4 /* YYTextRubyAnnotation.m in Sources */,
+				690887BC1E1CFE590000F3C4 /* UIPasteboard+YYText.m in Sources */,
+				690887C01E1CFE590000F3C4 /* YYTextAsyncLayer.m in Sources */,
+				690887401E1CDAAC0000F3C4 /* Login.m in Sources */,
+				69DD76311E1BC59D0033CD69 /* LocationSelect.m in Sources */,
+				690887E31E1D1AB70000F3C4 /* ExistingAddMoreChild.m in Sources */,
+				690887DD1E1D1A900000F3C4 /* ExistingLogin.m in Sources */,
+				690887231E1CB3F00000F3C4 /* Map.m in Sources */,
+				690887D91E1D0BE60000F3C4 /* AddMoreChild.m in Sources */,
+				690887B81E1CFE590000F3C4 /* UIColor+HexColors.m in Sources */,
+				690887AB1E1CFE590000F3C4 /* IQUIWindow+Hierarchy.m in Sources */,
+				690887D01E1CFE590000F3C4 /* YYTextView.m in Sources */,
+				690887C81E1CFE590000F3C4 /* YYTextLine.m in Sources */,
+				690887A81E1CFE590000F3C4 /* IQUITextFieldView+Additions.m in Sources */,
 				69DD76011E1BB99B0033CD69 /* AppDelegate.m in Sources */,
+				690887CD1E1CFE590000F3C4 /* YYTextSelectionView.m in Sources */,
+				69DD76351E1BCF3B0033CD69 /* LocationCell.m in Sources */,
+				690887C51E1CFE590000F3C4 /* YYTextInput.m in Sources */,
+				690887BD1E1CFE590000F3C4 /* UIView+YYText.m in Sources */,
+				690887AA1E1CFE590000F3C4 /* IQUIViewController+Additions.m in Sources */,
+				690887B11E1CFE590000F3C4 /* IQTitleBarButtonItem.m in Sources */,
+				6908873C1E1CDA020000F3C4 /* MyChildren.m in Sources */,
+				690887E01E1D1AA40000F3C4 /* ExistingRegister.m in Sources */,
+				690887AD1E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				690887C61E1CFE590000F3C4 /* YYTextKeyboardManager.m in Sources */,
+				690887ED1E1D1AFE0000F3C4 /* MyAddMoreChild.m in Sources */,
+				690887AF1E1CFE590000F3C4 /* IQBarButtonItem.m in Sources */,
+				690887C71E1CFE590000F3C4 /* YYTextLayout.m in Sources */,
+				690887C41E1CFE590000F3C4 /* YYTextEffectWindow.m in Sources */,
+				690887C91E1CFE590000F3C4 /* YYTextMagnifier.m in Sources */,
+				690887A61E1CFE590000F3C4 /* IQNSArray+Sort.m in Sources */,
+				690887C21E1CFE590000F3C4 /* YYTextContainerView.m in Sources */,
+				690887CC1E1CFE590000F3C4 /* YYTextRunDelegate.m in Sources */,
+				690887EA1E1D1AEE0000F3C4 /* MyRegister.m in Sources */,
 				69DD75FE1E1BB99B0033CD69 /* main.m in Sources */,
+				690887C11E1CFE590000F3C4 /* YYTextAttribute.m in Sources */,
+				690887AC1E1CFE590000F3C4 /* IQKeyboardManager.m in Sources */,
+				6908872D1E1CCA030000F3C4 /* WhatsNew.m in Sources */,
+				690887D11E1CFE590000F3C4 /* YYTextWeakProxy.m in Sources */,
+				690887D61E1D0BD10000F3C4 /* Register.m in Sources */,
+				690887391E1CD9E90000F3C4 /* Invoice.m in Sources */,
+				690887AE1E1CFE590000F3C4 /* IQTextView.m in Sources */,
+				690887BE1E1CFE590000F3C4 /* YYLabel.m in Sources */,
+				690887CF1E1CFE590000F3C4 /* YYTextUtilities.m in Sources */,
+				690887331E1CD9BC0000F3C4 /* ExistingCustomer.m in Sources */,
+				690887A91E1CFE590000F3C4 /* IQUIView+Hierarchy.m in Sources */,
+				690887291E1CB4210000F3C4 /* Dashboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +1010,7 @@
 				69DD76281E1BB99B0033CD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69DD76291E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCareTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +1019,7 @@
 				69DD762B1E1BB99B0033CD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69DD762C1E1BB99B0033CD69 /* Build configuration list for PBXNativeTarget "SwimCareUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +1028,7 @@
 				69DD762E1E1BB99B0033CD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
