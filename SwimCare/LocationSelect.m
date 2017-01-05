@@ -25,6 +25,11 @@
     self.table_view.separatorColor= [UIColor clearColor];
     self.table_view.allowsSelection = NO;
     
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:6.0/255 green:60.0/255 blue:95.0/255 alpha:1.0];
+    self.navigationController.navigationBar.translucent = NO;
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont fontWithName:@"Noteworthy" size:21]}];
+    
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];

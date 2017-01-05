@@ -1,5 +1,5 @@
 //
-//  Mychildren.h
+//  orgmakup.h
 //  SwimCare
 //
 //  Created by SixthSenseIT on 1/5/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Mychildren : UITableViewController
+@interface orgmakup : UIViewController
 
 @end

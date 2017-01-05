@@ -17,6 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _MYCHILDAWAY.layer.cornerRadius = 20;
+   _MYCHILDAWAY.layer.masksToBounds = YES;
+    _MYCHILDNOTRETURN.layer.cornerRadius = 20;
+    _MYCHILDNOTRETURN.layer.masksToBounds = YES;
+    _IHAVEQUESTION.layer.cornerRadius = 20;
+    _IHAVEQUESTION.layer.masksToBounds = YES;
+    _ORGMAKUP.layer.cornerRadius = 20;
+    _ORGMAKUP.layer.masksToBounds = YES;
+    _CHANGECLASSTIME.layer.cornerRadius = 20;
+    _CHANGECLASSTIME.layer.masksToBounds = YES;
     // Do any additional setup after loading the view.
 }
 

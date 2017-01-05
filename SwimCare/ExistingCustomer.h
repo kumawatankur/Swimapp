@@ -11,4 +11,12 @@
 @interface ExistingCustomer : UIViewController
 - (IBAction)Back:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *MYCHILDAWAY;
+@property (weak, nonatomic) IBOutlet UIButton *IHAVEQUESTION;
+@property (weak, nonatomic) IBOutlet UIButton *MYCHILDNOTRETURN;
+@property (weak, nonatomic) IBOutlet UIButton *ORGMAKUP;
+@property (weak, nonatomic) IBOutlet UIButton *CHANGECLASSTIME;
+
+
+
 @end

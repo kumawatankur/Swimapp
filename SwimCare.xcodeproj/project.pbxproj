@@ -15,7 +15,6 @@
 		690887331E1CD9BC0000F3C4 /* ExistingCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887321E1CD9BC0000F3C4 /* ExistingCustomer.m */; };
 		690887361E1CD9D70000F3C4 /* NewCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887351E1CD9D70000F3C4 /* NewCustomer.m */; };
 		690887391E1CD9E90000F3C4 /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887381E1CD9E90000F3C4 /* Invoice.m */; };
-		6908873C1E1CDA020000F3C4 /* MyChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908873B1E1CDA020000F3C4 /* MyChildren.m */; };
 		690887401E1CDAAC0000F3C4 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 6908873F1E1CDAAC0000F3C4 /* Login.m */; };
 		690887A61E1CFE590000F3C4 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887441E1CFE590000F3C4 /* IQNSArray+Sort.m */; };
 		690887A71E1CFE590000F3C4 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887461E1CFE590000F3C4 /* IQUIScrollView+Additions.m */; };
@@ -70,6 +69,13 @@
 		690887E71E1D1ADF0000F3C4 /* MyLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887E61E1D1ADF0000F3C4 /* MyLogin.m */; };
 		690887EA1E1D1AEE0000F3C4 /* MyRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887E91E1D1AEE0000F3C4 /* MyRegister.m */; };
 		690887ED1E1D1AFE0000F3C4 /* MyAddMoreChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 690887EC1E1D1AFE0000F3C4 /* MyAddMoreChild.m */; };
+		692AE1481E1E0FC5004F353F /* mychildaway.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AE1471E1E0FC5004F353F /* mychildaway.m */; };
+		692AE14B1E1E0FD4004F353F /* ihavequestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AE14A1E1E0FD4004F353F /* ihavequestion.m */; };
+		692AE14E1E1E0FE4004F353F /* mychildnotreturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AE14D1E1E0FE4004F353F /* mychildnotreturn.m */; };
+		692AE1511E1E0FF3004F353F /* orgmakup.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AE1501E1E0FF3004F353F /* orgmakup.m */; };
+		692AE1541E1E1001004F353F /* changeclasstime.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AE1531E1E1001004F353F /* changeclasstime.m */; };
+		692AE15A1E1E2B86004F353F /* Mychildren.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AE1591E1E2B86004F353F /* Mychildren.m */; };
+		692AE15D1E1E2C89004F353F /* MychildrenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AE15C1E1E2C89004F353F /* MychildrenCell.m */; };
 		69DD75FE1E1BB99B0033CD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD75FD1E1BB99B0033CD69 /* main.m */; };
 		69DD76011E1BB99B0033CD69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD76001E1BB99B0033CD69 /* AppDelegate.m */; };
 		69DD76071E1BB99B0033CD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DD76051E1BB99B0033CD69 /* Main.storyboard */; };
@@ -115,8 +121,6 @@
 		690887351E1CD9D70000F3C4 /* NewCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCustomer.m; sourceTree = "<group>"; };
 		690887371E1CD9E90000F3C4 /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
 		690887381E1CD9E90000F3C4 /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
-		6908873A1E1CDA020000F3C4 /* MyChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChildren.h; sourceTree = "<group>"; };
-		6908873B1E1CDA020000F3C4 /* MyChildren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChildren.m; sourceTree = "<group>"; };
 		6908873E1E1CDAAC0000F3C4 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		6908873F1E1CDAAC0000F3C4 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		690887431E1CFE580000F3C4 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
@@ -226,6 +230,20 @@
 		690887E91E1D1AEE0000F3C4 /* MyRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRegister.m; sourceTree = "<group>"; };
 		690887EB1E1D1AFE0000F3C4 /* MyAddMoreChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAddMoreChild.h; sourceTree = "<group>"; };
 		690887EC1E1D1AFE0000F3C4 /* MyAddMoreChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAddMoreChild.m; sourceTree = "<group>"; };
+		692AE1461E1E0FC5004F353F /* mychildaway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mychildaway.h; sourceTree = "<group>"; };
+		692AE1471E1E0FC5004F353F /* mychildaway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mychildaway.m; sourceTree = "<group>"; };
+		692AE1491E1E0FD4004F353F /* ihavequestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ihavequestion.h; sourceTree = "<group>"; };
+		692AE14A1E1E0FD4004F353F /* ihavequestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ihavequestion.m; sourceTree = "<group>"; };
+		692AE14C1E1E0FE4004F353F /* mychildnotreturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mychildnotreturn.h; sourceTree = "<group>"; };
+		692AE14D1E1E0FE4004F353F /* mychildnotreturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mychildnotreturn.m; sourceTree = "<group>"; };
+		692AE14F1E1E0FF3004F353F /* orgmakup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orgmakup.h; sourceTree = "<group>"; };
+		692AE1501E1E0FF3004F353F /* orgmakup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orgmakup.m; sourceTree = "<group>"; };
+		692AE1521E1E1001004F353F /* changeclasstime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = changeclasstime.h; sourceTree = "<group>"; };
+		692AE1531E1E1001004F353F /* changeclasstime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = changeclasstime.m; sourceTree = "<group>"; };
+		692AE1581E1E2B86004F353F /* Mychildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mychildren.h; sourceTree = "<group>"; };
+		692AE1591E1E2B86004F353F /* Mychildren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mychildren.m; sourceTree = "<group>"; };
+		692AE15B1E1E2C89004F353F /* MychildrenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MychildrenCell.h; sourceTree = "<group>"; };
+		692AE15C1E1E2C89004F353F /* MychildrenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MychildrenCell.m; sourceTree = "<group>"; };
 		69DD75F91E1BB99B0033CD69 /* SwimCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DD75FD1E1BB99B0033CD69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69DD75FF1E1BB99B0033CD69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -306,6 +324,16 @@
 				690887DF1E1D1AA40000F3C4 /* ExistingRegister.m */,
 				690887E11E1D1AB70000F3C4 /* ExistingAddMoreChild.h */,
 				690887E21E1D1AB70000F3C4 /* ExistingAddMoreChild.m */,
+				692AE1461E1E0FC5004F353F /* mychildaway.h */,
+				692AE1471E1E0FC5004F353F /* mychildaway.m */,
+				692AE1491E1E0FD4004F353F /* ihavequestion.h */,
+				692AE14A1E1E0FD4004F353F /* ihavequestion.m */,
+				692AE14C1E1E0FE4004F353F /* mychildnotreturn.h */,
+				692AE14D1E1E0FE4004F353F /* mychildnotreturn.m */,
+				692AE14F1E1E0FF3004F353F /* orgmakup.h */,
+				692AE1501E1E0FF3004F353F /* orgmakup.m */,
+				692AE1521E1E1001004F353F /* changeclasstime.h */,
+				692AE1531E1E1001004F353F /* changeclasstime.m */,
 			);
 			name = "Existing Customer";
 			sourceTree = "<group>";
@@ -505,8 +533,10 @@
 		690887E41E1D1AC50000F3C4 /* My Children */ = {
 			isa = PBXGroup;
 			children = (
-				6908873A1E1CDA020000F3C4 /* MyChildren.h */,
-				6908873B1E1CDA020000F3C4 /* MyChildren.m */,
+				692AE1581E1E2B86004F353F /* Mychildren.h */,
+				692AE1591E1E2B86004F353F /* Mychildren.m */,
+				692AE15B1E1E2C89004F353F /* MychildrenCell.h */,
+				692AE15C1E1E2C89004F353F /* MychildrenCell.m */,
 				690887E51E1D1ADF0000F3C4 /* MyLogin.h */,
 				690887E61E1D1ADF0000F3C4 /* MyLogin.m */,
 				690887E81E1D1AEE0000F3C4 /* MyRegister.h */,
@@ -731,9 +761,12 @@
 				690887CA1E1CFE590000F3C4 /* YYTextParser.m in Sources */,
 				690887B91E1CFE590000F3C4 /* IQDropDownTextField.m in Sources */,
 				690887BA1E1CFE590000F3C4 /* NSAttributedString+YYText.m in Sources */,
+				692AE1511E1E0FF3004F353F /* orgmakup.m in Sources */,
 				690887E71E1D1ADF0000F3C4 /* MyLogin.m in Sources */,
 				690887C31E1CFE590000F3C4 /* YYTextDebugOption.m in Sources */,
 				690887B31E1CFE590000F3C4 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				692AE15A1E1E2B86004F353F /* Mychildren.m in Sources */,
+				692AE14E1E1E0FE4004F353F /* mychildnotreturn.m in Sources */,
 				690887B71E1CFE590000F3C4 /* HFColorPickerView.m in Sources */,
 				690887B01E1CFE590000F3C4 /* IQPreviousNextView.m in Sources */,
 				690887B51E1CFE590000F3C4 /* ColorPickerTextField.m in Sources */,
@@ -761,11 +794,11 @@
 				690887BD1E1CFE590000F3C4 /* UIView+YYText.m in Sources */,
 				690887AA1E1CFE590000F3C4 /* IQUIViewController+Additions.m in Sources */,
 				690887B11E1CFE590000F3C4 /* IQTitleBarButtonItem.m in Sources */,
-				6908873C1E1CDA020000F3C4 /* MyChildren.m in Sources */,
 				690887E01E1D1AA40000F3C4 /* ExistingRegister.m in Sources */,
 				690887AD1E1CFE590000F3C4 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				690887C61E1CFE590000F3C4 /* YYTextKeyboardManager.m in Sources */,
 				690887ED1E1D1AFE0000F3C4 /* MyAddMoreChild.m in Sources */,
+				692AE14B1E1E0FD4004F353F /* ihavequestion.m in Sources */,
 				690887AF1E1CFE590000F3C4 /* IQBarButtonItem.m in Sources */,
 				690887C71E1CFE590000F3C4 /* YYTextLayout.m in Sources */,
 				690887C41E1CFE590000F3C4 /* YYTextEffectWindow.m in Sources */,
@@ -780,10 +813,13 @@
 				6908872D1E1CCA030000F3C4 /* WhatsNew.m in Sources */,
 				690887D11E1CFE590000F3C4 /* YYTextWeakProxy.m in Sources */,
 				690887D61E1D0BD10000F3C4 /* Register.m in Sources */,
+				692AE1541E1E1001004F353F /* changeclasstime.m in Sources */,
 				690887391E1CD9E90000F3C4 /* Invoice.m in Sources */,
 				690887AE1E1CFE590000F3C4 /* IQTextView.m in Sources */,
+				692AE15D1E1E2C89004F353F /* MychildrenCell.m in Sources */,
 				690887BE1E1CFE590000F3C4 /* YYLabel.m in Sources */,
 				690887CF1E1CFE590000F3C4 /* YYTextUtilities.m in Sources */,
+				692AE1481E1E0FC5004F353F /* mychildaway.m in Sources */,
 				690887331E1CD9BC0000F3C4 /* ExistingCustomer.m in Sources */,
 				690887A91E1CFE590000F3C4 /* IQUIView+Hierarchy.m in Sources */,
 				690887291E1CB4210000F3C4 /* Dashboard.m in Sources */,

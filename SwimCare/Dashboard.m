@@ -12,7 +12,7 @@
 #import "ExistingLogin.h"
 #import "ExistingCustomer.h"
 #import "MyLogin.h"
-#import "MyChildren.h"
+#import "Mychildren.h"
 
 @interface Dashboard ()
 
@@ -41,15 +41,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (IBAction)invoice:(id)sender {
     if([[NSUserDefaults standardUserDefaults] valueForKey:@"Loginuser"]) {
@@ -84,7 +76,7 @@
     if([[NSUserDefaults standardUserDefaults] valueForKey:@"Loginuser"]) {
         NSLog(@"ankur");
         
-        MyChildren *wc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateViewControllerWithIdentifier:@"MyChildren"];
+        Mychildren *wc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateViewControllerWithIdentifier:@"MyChildren"];
         [self.navigationController pushViewController:wc animated:YES];
     }
     else

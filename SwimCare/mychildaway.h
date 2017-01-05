@@ -1,5 +1,5 @@
 //
-//  Mychildren.h
+//  mychildaway.h
 //  SwimCare
 //
 //  Created by SixthSenseIT on 1/5/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Mychildren : UITableViewController
+@interface mychildaway : UIViewController
 
 @end
