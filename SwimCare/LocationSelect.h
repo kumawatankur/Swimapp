@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LocationSelect : UIViewController
+@interface LocationSelect : UIViewController<NSURLConnectionDataDelegate>
+{
+     NSMutableData *response;
+}
 @property (weak, nonatomic) IBOutlet UITableView *table_view;
 
 @end

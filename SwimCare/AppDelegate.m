@@ -16,6 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //
+    //
+    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentProduction : @"Afzzuz1IdVTQDM2RQ7Ktpzxv4rLZRr03bK9N78x8W0hJ8IdoLP4tJwTYLL8OqphHEdp86nP-2td0ictj",
+                                                           PayPalEnvironmentSandbox : @"ankur.sixthsense-facilitator@gmail.com"}];
     // Override point for customization after application launch.
     return YES;
 }

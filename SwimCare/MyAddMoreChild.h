@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface MyAddMoreChild : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *tx_childname;
+@property (strong, nonatomic) IBOutlet UITextField *tx_grnder;
+@property (strong, nonatomic) IBOutlet UITextField *tx_dob;
+@property (strong, nonatomic) IBOutlet UITextView *tx_anymedical;
+@property(nonatomic,retain) NSString * emailId;
+- (IBAction)gender_btn:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UITableView *gender_table;
 @end

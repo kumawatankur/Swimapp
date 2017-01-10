@@ -11,5 +11,8 @@
 @interface LocationCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *phone_lbl;
 @property (weak, nonatomic) IBOutlet UIView *bg_view;
+@property (weak, nonatomic) IBOutlet UIButton *location_lbl;
+@property (weak, nonatomic) IBOutlet UIButton *map;
+@property (weak, nonatomic) IBOutlet UIButton *phone;
 
 @end
