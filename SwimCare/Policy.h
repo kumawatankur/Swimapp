@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface Policy : UIViewController
+@property (strong, nonatomic) IBOutlet UITextView *tx_policy;
 
 @end
